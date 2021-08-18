@@ -1,0 +1,28 @@
+body{
+    background-image: url('backbuild (2).jpg') ;
+    
+    background-size: cover;
+background-repeat: no-repeat;
+}
+p{
+    font-size: 25px;
+    font-family: 'Bitter',serif;
+    line-height: 35px;
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    color: crimson;
+    font-size: 50px;
+}
+#more{
+    display: none;
+}
+button{
+    background-color: crimson;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 30px;
+    padding: 5px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   <title>learn more page</title>
+   <link rel="stylesheet" href="read-more.css">
+</head>
+<body>
+    <h1>Read More</h1>
+    <p>India is one of the oldest civilizations in the world, 
+      spanning a period of more than 4000 years, 
+      and witnessing the fusion of several customs and traditions, 
+      which are reflective of the rich culture and heritage of the Country.
+      The history of the nation gives a glimpse into the magnanimity of its evolution - 
+      from a Country reeling under colonialism, to one of the leading economies in the global scenario within a span of fifty years. 
+      More than anything, the nationalistic fervour of the people is the contributing force behind the culmination of such a development. 
+      This transformation of the nation instills a sense of national pride in the heart of every Indian within the Country and abroad, 
+      and this section is a modest attempt at keeping its flame alive.<span id="dots">...</span><span id="more">
+      India is a land of different cultures, heritages, many languages and religions. Despite the differences our India is united in its diversity.
+      The people of this country, its beautiful cultures, its languages, 
+      the places and the good heart of the Indians make us feel proud that we are born in such a beautiful land. 
+      Our mother India has been teaching her children different skills and talents such as sports, archery, defences, music, 
+      dance, art, humanity, kindness, love, tenderness and acting. 
+      When we have such a beautiful land to live in, then why will not our heart be filled with pride?.
+      My country is a land of villages and fields full of bodies. I am proud of his village from which the Indian civilization flourished. 
+      Most of the great leaders of our country came from villages.
+      Our fields are fed by mighty rivers like Ganges, Yamuna, Brahmaputra, Godavari, Narmada, Krishna and Kavery . 
+      The Gangetic Valley is the most fertile region of our country.
+     The oceans bathing its shores on three sides and the mighty Himalayas to the north have given my country natural boundaries. 
+     Once again, the attraction of the mountain has attracted many adventures to this land of rich culture.
+     Our state is secular. On his knees breathe the happy disciples of the different religions of the world. 
+     We have a unique culture that has vested throughout the centuries. 
+     There is a lot of diversity among our people. We speak several languages,
+      we worship many gods and yet we have the same spirit, the spirit of India, which crosses all parts of our country and binds us all together. 
+      We have a great unity in diversity.</span></p>
+      
+      <button type="button" id="read" onclick="read()">Read More</button>
+       <script type="text/javascript">
+         var i=0;
+         function read(){
+           if(li){
+            document.getElementById("more").style.display ="inline";
+            document.getElementById("dots").style.display ="none";
+            document.getElementById("read").innerHTML="Read Less";
+            i=1;
+             }
+             else{
+              document.getElementById("more").style.display ="none";
+            document.getElementById("dots").style.display ="inline";
+            document.getElementById("read").innerHTML="Read More";
+            i=0;
+             }
+         }
+      
+      
+      </script>
+    </body>
+</html>

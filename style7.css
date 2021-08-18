@@ -1,0 +1,17 @@
+body{
+    background-image: url('img2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    
+}
+h1{
+    text-align: center;
+    color: rgb(116, 12, 12);
+    text-shadow: black;
+}
+p{
+    text-align: center;
+    text-emphasis-color:green;
+}
